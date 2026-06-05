@@ -1,28 +1,19 @@
-.controller.ds4 {
-  background-image: url("https://raw.githubusercontent.com/ohmygodascripter/movas2/main/controller.png") !important;
-  background-size: 600px auto !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-}
-
-/* Show live button overlay */
-.controller.ds4 svg {
-  opacity: 1 !important;
-}
-
-/* Move buttons to match your controller */
+/* Face buttons (△ ○ ✕ □) */
 .controller.ds4 .face {
-  transform: translate(-7px, -5px) scale(0.92) !important;
+    transform: translate(-22px, -8px) scale(0.82) !important;
 }
 
+/* D-pad */
 .controller.ds4 .dpad {
-  transform: translate(8px, -3px) scale(0.92) !important;
+    transform: translate(18px, -6px) scale(0.82) !important;
 }
 
-.controller.ds4 .sticks {
-  transform: translate(0px, 0px) scale(0.95) !important;
+/* Left stick */
+.controller.ds4 .stick.left {
+    transform: translate(10px, -18px) scale(0.85) !important;
 }
 
-.controller.ds4 .bumpers {
-  transform: translate(0px, 4px) scale(0.95) !important;
+/* Right stick */
+.controller.ds4 .stick.right {
+    transform: translate(-10px, -18px) scale(0.85) !important;
 }
