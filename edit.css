@@ -1,29 +1,20 @@
-/* Hide default GamepadViewer controller parts */
 .controller.ds4 {
-  background: none !important;
+  background-image: url("https://ohmygodascripter.github.io/movas2/controller.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 
-.controller.ds4 .triggers,
-.controller.ds4 .bumper,
+.controller.ds4 .button,
+.controller.ds4 .stick,
+.controller.ds4 .face,
+.controller.ds4 .dpad,
 .controller.ds4 .touchpad,
 .controller.ds4 .meta,
 .controller.ds4 .arrows,
+.controller.ds4 .bumper,
+.controller.ds4 .trigger,
 .controller.ds4 .back,
-.controller.ds4 .start,
-.controller.ds4 .quadrant {
+.controller.ds4 .start {
   opacity: 0 !important;
-}
-
-/* Add your custom controller image */
-.controller.ds4:before {
-  content: "";
-  position: absolute;
-  left: -360px;
-  top: -210px;
-  width: 1920px;
-  height: 1080px;
-  background: url("https://ohmygodascripter.github.io/movas2/controller.png?v=2") center center no-repeat;
-  background-size: contain;
-  z-index: 0;
-  pointer-events: none;
 }
