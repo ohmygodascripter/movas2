@@ -5,7 +5,7 @@
   background-position: center center !important;
 }
 
-/* Move buttons closer to match your red controller */
+/* Move default buttons to fit your skin */
 .controller.ds4 .face {
   transform: translate(-35px, 0px) !important;
 }
