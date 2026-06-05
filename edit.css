@@ -1,18 +1,10 @@
 .controller.ds4 {
-  background-image: url("https://ohmygodascripter.github.io/movas2/controller.png") !important;
-  background-size: 900px auto !important;
+  background-image: url("https://github.com/ohmygodascripter/movas2/blob/main/controller.png?raw=true") !important;
+  background-size: contain !important;
   background-repeat: no-repeat !important;
-  background-position: center center !important;
+  background-position: center !important;
 }
 
-.controller.ds4 .face,
-.controller.ds4 .dpad,
-.controller.ds4 .stick,
-.controller.ds4 .triggers,
-.controller.ds4 .bumper,
-.controller.ds4 .touchpad,
-.controller.ds4 .meta,
-.controller.ds4 .back,
-.controller.ds4 .start {
-  opacity: 0 !important;
+.controller.ds4 svg {
+  opacity: 0.75 !important;
 }
