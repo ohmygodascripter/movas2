@@ -4,17 +4,3 @@
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
-
-.controller.ds4 .button,
-.controller.ds4 .stick,
-.controller.ds4 .face,
-.controller.ds4 .dpad,
-.controller.ds4 .touchpad,
-.controller.ds4 .meta,
-.controller.ds4 .arrows,
-.controller.ds4 .bumper,
-.controller.ds4 .trigger,
-.controller.ds4 .back,
-.controller.ds4 .start {
-  opacity: 0 !important;
-}
