@@ -1,23 +1,42 @@
-/* Left Stick */
-.stick.left {
-    left: 180px !important;
-    top: 250px !important;
+/* Fix misplaced floating sticks */
+.stick.left,
+.stick.right {
+  position: absolute !important;
+  width: 75px !important;
+  height: 75px !important;
 }
 
-/* Right Stick */
+/* Left stick */
+.stick.left {
+  left: 183px !important;
+  top: 232px !important;
+}
+
+/* Right stick */
 .stick.right {
-    left: 320px !important;
-    top: 250px !important;
+  left: 303px !important;
+  top: 232px !important;
 }
 
 /* D-Pad */
 .dpad {
-    left: 65px !important;
-    top: 115px !important;
+  position: absolute !important;
+  left: 95px !important;
+  top: 145px !important;
 }
 
-/* Face Buttons */
-.button.y { left: 350px !important; top: 115px !important; } /* Triangle */
-.button.b { left: 395px !important; top: 160px !important; } /* Circle */
-.button.a { left: 350px !important; top: 205px !important; } /* Cross */
-.button.x { left: 305px !important; top: 160px !important; } /* Square */
+/* Face buttons */
+.button.y { left: 386px !important; top: 122px !important; } /* Triangle */
+.button.b { left: 421px !important; top: 157px !important; } /* Circle */
+.button.a { left: 386px !important; top: 193px !important; } /* X */
+.button.x { left: 350px !important; top: 157px !important; } /* Square */
+
+/* Make pressed buttons visible */
+.button.pressed,
+.button.active,
+.stick.pressed,
+.dpad.pressed {
+  opacity: 1 !important;
+  filter: drop-shadow(0 0 10px #18fff0)
+          drop-shadow(0 0 20px #18fff0) !important;
+}
