@@ -1,23 +1,27 @@
 .controller.ds4 {
   background-image: url("https://ohmygodascripter.github.io/movas2/controller.png") !important;
-  background-size: 720px auto !important;
+  background-size: 900px auto !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
 }
 
-/* Move default buttons to fit your skin */
 .controller.ds4 .face {
-  transform: translate(-35px, 0px) !important;
+  transform: translate(-90px, 20px) scale(0.75) !important;
 }
 
 .controller.ds4 .dpad {
-  transform: translate(35px, 0px) !important;
+  transform: translate(90px, 20px) scale(0.75) !important;
 }
 
 .controller.ds4 .stick.left {
-  transform: translate(35px, -5px) !important;
+  transform: translate(95px, 25px) scale(0.85) !important;
 }
 
 .controller.ds4 .stick.right {
-  transform: translate(-35px, -5px) !important;
+  transform: translate(-95px, 25px) scale(0.85) !important;
+}
+
+.controller.ds4 .triggers,
+.controller.ds4 .bumper {
+  opacity: 0.25 !important;
 }
