@@ -1,10 +1,28 @@
 .controller.ds4 {
-  background-image: url("https://github.com/ohmygodascripter/movas2/blob/main/controller.png?raw=true") !important;
-  background-size: contain !important;
+  background-image: url("https://raw.githubusercontent.com/ohmygodascripter/movas2/main/controller.png") !important;
+  background-size: 600px auto !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
 
+/* Show live button overlay */
 .controller.ds4 svg {
-  opacity: 0.75 !important;
+  opacity: 1 !important;
+}
+
+/* Move buttons to match your controller */
+.controller.ds4 .face {
+  transform: translate(-7px, -5px) scale(0.92) !important;
+}
+
+.controller.ds4 .dpad {
+  transform: translate(8px, -3px) scale(0.92) !important;
+}
+
+.controller.ds4 .sticks {
+  transform: translate(0px, 0px) scale(0.95) !important;
+}
+
+.controller.ds4 .bumpers {
+  transform: translate(0px, 4px) scale(0.95) !important;
 }
