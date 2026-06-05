@@ -1,0 +1,21 @@
+body {
+  background: transparent !important;
+}
+
+.controller {
+  background: none !important;
+  filter: drop-shadow(0 0 10px #18fff0) drop-shadow(0 0 30px #18fff0) !important;
+}
+
+.controller::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 784px;
+  height: 441px;
+  transform: translate(-50%, -50%);
+  background: url("controller.png") center center / contain no-repeat;
+  pointer-events: none;
+  z-index: 1;
+}
