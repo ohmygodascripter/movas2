@@ -1,30 +1,19 @@
-/* Move D-Pad */
+/* D-Pad */
 .controller.ds4 .dpad {
-    transform: translate(24px, 5px) scale(0.88) !important;
+    transform: translate(38px, 4px) scale(0.82) !important;
 }
 
-/* Move Face Buttons (△ ○ ✕ □) */
+/* Face Buttons */
 .controller.ds4 .face {
-    transform: translate(-28px, -4px) scale(0.88) !important;
+    transform: translate(-48px, -2px) scale(0.82) !important;
 }
 
-/* Move Left Stick */
+/* Left Stick */
 .controller.ds4 .stick.left {
-    transform: translate(0px, -12px) scale(0.90) !important;
+    transform: translate(4px, -18px) scale(0.88) !important;
 }
 
-/* Move Right Stick */
+/* Right Stick */
 .controller.ds4 .stick.right {
-    transform: translate(-5px, -12px) scale(0.90) !important;
-}
-
-/* Move Triggers */
-.controller.ds4 .bumper.left,
-.controller.ds4 .trigger.left {
-    transform: translate(8px, 0px) !important;
-}
-
-.controller.ds4 .bumper.right,
-.controller.ds4 .trigger.right {
-    transform: translate(-8px, 0px) !important;
+    transform: translate(-8px, -18px) scale(0.88) !important;
 }
