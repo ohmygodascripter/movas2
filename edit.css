@@ -1,52 +1,23 @@
-/* Button press alignment */
-
-/* Triangle */
-.button.y {
-  left: 665px !important;
-  top: 150px !important;
+/* Left Stick */
+.stick.left {
+    left: 180px !important;
+    top: 250px !important;
 }
 
-/* Circle */
-.button.b {
-  left: 725px !important;
-  top: 210px !important;
-}
-
-/* Cross / X */
-.button.a {
-  left: 665px !important;
-  top: 270px !important;
-}
-
-/* Square */
-.button.x {
-  left: 605px !important;
-  top: 210px !important;
+/* Right Stick */
+.stick.right {
+    left: 320px !important;
+    top: 250px !important;
 }
 
 /* D-Pad */
 .dpad {
-  left: 160px !important;
-  top: 205px !important;
+    left: 65px !important;
+    top: 115px !important;
 }
 
-/* Left stick */
-.stick.left {
-  left: 285px !important;
-  top: 315px !important;
-}
-
-/* Right stick */
-.stick.right {
-  left: 510px !important;
-  top: 315px !important;
-}
-
-/* Make pressed buttons glow teal */
-.button.pressed,
-.button.active,
-.stick.pressed,
-.dpad.pressed {
-  filter: drop-shadow(0 0 10px #18fff0)
-          drop-shadow(0 0 20px #18fff0) !important;
-}
+/* Face Buttons */
+.button.y { left: 350px !important; top: 115px !important; } /* Triangle */
+.button.b { left: 395px !important; top: 160px !important; } /* Circle */
+.button.a { left: 350px !important; top: 205px !important; } /* Cross */
+.button.x { left: 305px !important; top: 160px !important; } /* Square */
