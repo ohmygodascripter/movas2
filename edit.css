@@ -1,21 +1,30 @@
-body {
-  background: transparent !important;
+/* Face Buttons */
+.button.a { left: 612px !important; top: 258px !important; }
+.button.b { left: 675px !important; top: 195px !important; }
+.button.x { left: 548px !important; top: 195px !important; }
+.button.y { left: 612px !important; top: 132px !important; }
+
+/* Left Stick */
+.stick.left {
+    left: 235px !important;
+    top: 275px !important;
 }
 
-.controller {
-  background: none !important;
-  filter: drop-shadow(0 0 10px #18fff0) drop-shadow(0 0 30px #18fff0) !important;
+/* Right Stick */
+.stick.right {
+    left: 470px !important;
+    top: 275px !important;
 }
 
-.controller::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 784px;
-  height: 441px;
-  transform: translate(-50%, -50%);
-  background: url("controller.png") center center / contain no-repeat;
-  pointer-events: none;
-  z-index: 1;
+/* D-Pad */
+.dpad {
+    left: 120px !important;
+    top: 150px !important;
+}
+
+/* Glow */
+.button,
+.stick,
+.dpad {
+    filter: drop-shadow(0 0 8px #18fff0);
 }
