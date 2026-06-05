@@ -1,43 +1,30 @@
-/* Background Image */
 .controller.ds4 {
-    background-image: url('https://raw.githubusercontent.com/ohmygodascripter/movas2/main/controller.png') !important;
-    background-size: 600px auto !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
+  background-image: url("https://raw.githubusercontent.com/ohmygodascripter/movas2/main/controller.png") !important;
+  background-size: 820px auto !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 
-/* Show button overlays */
 .controller.ds4 svg {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /* D-Pad */
 .controller.ds4 .dpad {
-    transform: translate(56px, 4px) scale(0.82) !important;
+  transform: translate(42px, 6px) scale(0.82) !important;
 }
 
-/* Face Buttons (△ ○ ✕ □) */
+/* Face Buttons */
 .controller.ds4 .face {
-    transform: translate(-66px, -2px) scale(0.82) !important;
+  transform: translate(-52px, 0px) scale(0.82) !important;
 }
 
 /* Left Stick */
 .controller.ds4 .stick.left {
-    transform: translate(6px, -20px) scale(0.88) !important;
+  transform: translate(8px, -18px) scale(0.88) !important;
 }
 
 /* Right Stick */
 .controller.ds4 .stick.right {
-    transform: translate(-10px, -20px) scale(0.88) !important;
-}
-
-/* Triggers (L1/L2 & R1/R2) */
-.controller.ds4 .bumper.left,
-.controller.ds4 .trigger.left {
-    transform: translate(8px, -2px) !important;
-}
-
-.controller.ds4 .bumper.right,
-.controller.ds4 .trigger.right {
-    transform: translate(-8px, -2px) !important;
+  transform: translate(-8px, -18px) scale(0.88) !important;
 }
