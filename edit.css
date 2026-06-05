@@ -1,11 +1,11 @@
+/* REAL MOVAS PS4 Controller */
+
 .controller.custom {
-    background: url("https://ohmygodascripter.github.io/movas2/controller.png") no-repeat center center !important;
+    background: url("https://ohmygodascripter.github.io/movas2/controller.png") center center no-repeat !important;
     background-size: contain !important;
-    width: 1920px !important;
-    height: 1080px !important;
 }
 
-/* Hide default PS4 skin */
+/* Hide original controller body */
 .controller.custom .base {
-    opacity: 0;
+    opacity: 0 !important;
 }
