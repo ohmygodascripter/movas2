@@ -1,6 +1,23 @@
 .controller.ds4 {
   background-image: url("https://ohmygodascripter.github.io/movas2/controller.png") !important;
-  background-size: contain !important;
+  background-size: 720px auto !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-position: center center !important;
+}
+
+/* Move buttons closer to match your red controller */
+.controller.ds4 .face {
+  transform: translate(-35px, 0px) !important;
+}
+
+.controller.ds4 .dpad {
+  transform: translate(35px, 0px) !important;
+}
+
+.controller.ds4 .stick.left {
+  transform: translate(35px, -5px) !important;
+}
+
+.controller.ds4 .stick.right {
+  transform: translate(-35px, -5px) !important;
 }
