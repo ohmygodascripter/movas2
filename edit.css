@@ -5,23 +5,14 @@
   background-position: center center !important;
 }
 
-.controller.ds4 .face {
-  transform: translate(-90px, 20px) scale(0.75) !important;
-}
-
-.controller.ds4 .dpad {
-  transform: translate(90px, 20px) scale(0.75) !important;
-}
-
-.controller.ds4 .stick.left {
-  transform: translate(95px, 25px) scale(0.85) !important;
-}
-
-.controller.ds4 .stick.right {
-  transform: translate(-95px, 25px) scale(0.85) !important;
-}
-
+.controller.ds4 .face,
+.controller.ds4 .dpad,
+.controller.ds4 .stick,
 .controller.ds4 .triggers,
-.controller.ds4 .bumper {
-  opacity: 0.25 !important;
+.controller.ds4 .bumper,
+.controller.ds4 .touchpad,
+.controller.ds4 .meta,
+.controller.ds4 .back,
+.controller.ds4 .start {
+  opacity: 0 !important;
 }
